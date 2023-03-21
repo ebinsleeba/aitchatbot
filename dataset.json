@@ -1,0 +1,318 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Greetings",
+        "Howdy!",
+        "What's up?",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I assist you?",
+        "Hi! How may I help you today?",
+        "Hey there! How can I be of service?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later! Take care.",
+        "Bye! Come back soon.",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help.",
+        "No problem.",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "What events are happening?",
+        "When is the next event?",
+        "Can you tell me about upcoming events?"
+      ],
+      "responses": [
+        "We have several events coming up soon! Our next event is [event name and date]. Would you like more information?",
+        "Our upcoming events include [event names and dates]. Which one are you interested in?"
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "How can I join a club?",
+        "What clubs are available?",
+        "Can you tell me about the different clubs?"
+      ],
+      "responses": [
+        "We have a variety of clubs available for students to join! Some of our popular clubs include [club names]. If you're interested in joining a club, you can visit our website or stop by our office for more information."
+      ]
+    },
+    {
+      "tag": "leadership",
+      "patterns": [
+        "How can I become a student leader?",
+        "What leadership opportunities are available?",
+        "Can you tell me about the student government?"
+      ],
+      "responses": [
+        "We have a student government that is always looking for motivated and dedicated students to join! You can visit our website or stop by our office for more information on how to become a student leader."
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "What resources are available for students?",
+        "Where can I find academic support?",
+        "Can you tell me about student services?"
+      ],
+      "responses": [
+        "We have a variety of resources and services available for students! Some of our popular resources include [resource names]. If you need academic support, you can visit the tutoring center or talk to your professors for more information."
+      ]
+    },
+    {
+      "tag": "housing",
+      "patterns": [
+        "How can I find housing?",
+        "What options are available for student housing, and how do I apply?",
+        "What housing options are available?",
+        "Can you tell me about on-campus housing?"
+      ],
+      "responses": [
+        "We have several housing options available for students! Our on-campus housing includes [housing options]. If you're looking for off-campus housing, we recommend checking out our housing board or visiting the local real estate agents for more information."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "Where can I find food on campus?",
+        "What dining options are available?",
+        "Can you tell me about meal plans?"
+      ],
+      "responses": [
+        "We have several dining options available on campus! Our dining halls include [dining options]. We also offer meal plans for students who are interested in eating on campus."
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "Where can I find health services on campus?",
+        "What health resources are available?",
+        "Can you tell me about the counseling center?"
+      ],
+      "responses": [
+        "We have several health services available on campus! Our health center offers [health services]. We also have a counseling center for students who need support. If you're interested in scheduling an appointment, you can visit our website or stop by our office for more information."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "How can I apply for financial aid?",
+        "How can I apply for scholarships or grants",
+        "What options are available for student loans or other financial aid",
+        "What types of financial aid are available?",
+        "Can you tell me about scholarships?"
+      ],
+      "responses": [
+        "We have several financial aid options available for students! Our financial aid office can help you apply for grants, loans, and other forms of financial assistance. We also have scholarships available for students who meet certain criteria. If you're interested in applying for financial aid, you can visit our website or stop by our office for more information."
+      ]
+    },
+    {
+      "tag": "career",
+      "patterns": [
+        "Where can I find career resources on campus?",
+        "How can I access career counseling or career assessment services?",
+        "What career services are available?",
+        "Can you tell me about job fairs?",
+        "What options are available for internships, co-ops, or job shadowing?"
+      ],
+      "responses": [
+        "We have several career resources available for students! Our career center offers [career services]. We also host job fairs throughout the year to help students connect with employers. If you're interested in finding a job or exploring career options, you can visit our website or stop by our office for more information."
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "How can I join a sports team?",
+        "What sports are available?",
+        "Can you tell me about intramural sports?"
+      ],
+      "responses": [
+        "We have several sports teams available for students to join! Our sports teams include [sports teams]. We also have intramural sports available for students who want to participate in recreational sports. If you're interested in joining a sports team or playing intramural sports, you can visit our website or stop by our office for more information."
+      ]
+    },
+    {
+      "tag": "clubs_event",
+      "patterns": [
+        "When is the next club event?",
+        "Can you tell me about club meetings?",
+        "What clubs are hosting events?"
+      ],
+      "responses": [
+        "Our clubs are always hosting events throughout the year! Some of our upcoming events include [event names and dates]. You can find more information about our clubs and their events on our website or by stopping by our office."
+      ]
+    },
+    {
+      "tag": "student_life",
+      "patterns": [
+        "What is student life like on campus?",
+        "Can you tell me about student organizations?",
+        "What is there to do on campus?"
+      ],
+      "responses": [
+        "Student life on campus is vibrant and exciting! We have a variety of student organizations available for students to join, including [student organizations]. There is always something to do on campus, whether it's attending an event, participating in a club, or hanging out with friends."
+      ]
+    },
+    {
+      "tag": "campus_life",
+      "patterns": [
+        "What events are happening on campus this week?",
+        "Can you tell me about the clubs and organizations available on campus?",
+        "Where can I find information about campus resources like tutoring and counseling?",
+        "How do I get involved with the student government?",
+        "What are some fun activities to do on campus?",
+        "Can you recommend any good places to eat on campus?",
+        "What should I do if I lose my student ID card?",
+        "How can I find a study group for my classes?",
+        "What's the best way to get around campus?"
+      ],
+      "responses": [
+        "Sure! Here's some information about campus life:\n\n- For events happening on campus this week, check out our website or social media pages.\n\n- We have a variety of clubs and organizations on campus. Check out our website for a full list and details on how to join.\n\n- The student resource center is a great place to start for information about tutoring, counseling, and other resources available on campus.\n\n- To get involved with the student government, you can reach out to them directly or attend one of their meetings.\n\n- There are always new and exciting activities happening on campus. Check out our website or social media pages for more information.\n\n- Some popular places to eat on campus include [restaurant names and locations].\n\n- If you lose your student ID card, you can go to the student center to get a replacement.\n\n- You can try reaching out to classmates or forming a study group through your department or professor.\n\n- Walking or biking are great ways to get around campus. You can also use the campus shuttle service for longer distances."
+      ]
+    },
+    {
+      "tag": "student_support",
+      "patterns": [
+        "Can you tell me about student support services?",
+        "How do I get academic help?",
+        "What resources are available for students with disabilities?"
+      ],
+      "responses": [
+        "We offer several student support services on campus! Our student support services include [list of services] and our academic support team can help you with [list of academic services]. We also provide resources for students with disabilities. You can find more information about student support services on our website or by stopping by our office."
+      ]
+    },
+    {
+      "tag": "housing_application",
+      "patterns": [
+        "How can I apply for on-campus housing?",
+        "What is the housing application process?",
+        "When are housing applications due?"
+      ],
+      "responses": [
+        "You can apply for on-campus housing by visiting our website or stopping by our office for a housing application. The housing application process involves [application process]. Housing applications are due [application deadline]. If you have any questions about the housing application process, please don't hesitate to contact us."
+      ]
+    },
+    {
+      "tag": "health_services",
+      "patterns": [
+        "Can you tell me about the health center?",
+        "What health services are available on campus?",
+        "How do I make an appointment with a doctor?"
+      ],
+      "responses": [
+        "We offer several health services on campus for students! Our health center provides [list of health services] and our doctors are available by appointment. You can make an appointment by calling our health center or visiting our website for more information."
+      ]
+    },
+    {
+      "tag": "meal_plans",
+      "patterns": [
+        "How do meal plans work?",
+        "What meal plans are available?",
+        "Can you tell me about meal plan costs?"
+      ],
+      "responses": [
+        "Our meal plans allow you to dine,at any of our campus dining locations! We offer a variety of meal plans to fit different dietary needs and preferences. The cost of meal plans varies depending on the plan you choose. You can find more information about our meal plans on our website or by stopping by our office."
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "Where can I get tech support?",
+        "What technology resources are available?",
+        "Can you tell me about computer labs?"
+      ],
+      "responses": [
+        "We have several technology resources available for students! Our tech support team can help you with [tech support services]. We also have computer labs available for students to use. If you're interested in accessing our technology resources, you can visit our website or stop by our office for more information."
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "How do I apply to the university?",
+        "What are the admission requirements?",
+        "Can you tell me about campus tours?"
+      ],
+      "responses": [
+        "You can apply to the university by visiting our website or stopping by our office for an application. Admission requirements vary depending on the program you're applying to. We offer campus tours throughout the year to help prospective students learn more about our campus and programs. If you're interested in applying to the university or scheduling a campus tour, please don't hesitate to contact us."
+      ]
+    },
+    {
+      "tag": "transportation",
+      "patterns": [
+        "What transportation options are available?",
+        "How do I get to campus?",
+        "Can you tell me about parking permits?"
+      ],
+      "responses": [
+        "We have several transportation options available for students! Our campus is conveniently located near [transportation options]. If you're driving to campus, you can purchase a parking permit from our office. You can find more information about transportation options and parking permits on our website or by stopping by our office."
+      ]
+    },
+    {
+      "tag": "study_abroad",
+      "patterns": [
+        "Can I study abroad?",
+        "What study abroad programs are available?",
+        "How do I apply for a study abroad program?"
+      ],
+      "responses": [
+        "Yes, we offer several study abroad programs for students! Our study abroad programs include [program names and locations]. You can apply for a study abroad program by visiting our website or stopping by our office for an application. If you're interested in studying abroad, please don't hesitate to contact us."
+      ]
+    },
+    {
+      "tag": "health_and_wellness",
+      "patterns": [
+        "What health and wellness resources are available on campus?",
+        "How do I schedule an appointment with a doctor?",
+        "What mental health resources are available for students?"
+      ],
+      "responses": [
+        "We prioritize the health and wellness of our students and provide several resources for you! Our health center provides medical services and you can schedule an appointment with a doctor on our website or by visiting our office. We also offer mental health resources such as [list of mental health resources]. You can find more information about health and wellness resources on our website."
+      ]
+    },
+    {
+      "tag": "academics",
+      "patterns": [
+        "What majors are available?",
+        "Can you tell me about academic advising?",
+        "How do I change my major?"
+      ],
+      "responses": [
+        "We offer a variety of majors and programs to choose from! Our academic advising team can help you choose a major and plan your academic career. If you're interested in changing your major, you can speak with your academic advisor or visit our office for more information."
+      ]
+    }
+  ]
+}
+
+
